@@ -9,4 +9,16 @@ WIN_COMBINATIONS = [
   [2,4,6], # top-left to bottom-right diagonal
 ]
 
-
+def display_board(board)
+  cells = []
+  i = 0
+  while i <= 8
+    cells[i] = " #{board[i]} "
+    i += 1
+  end
+  row_1 = "#{cells[0]}|#{cells[1]}|#{cells[2]}"
+  row_2 = "#{cells[3]}|#{cells[4]}|#{cells[5]}"
+  row_3 = "#{cells[6]}|#{cells[7]}|#{cells[8]}"
+  line = "-" * 11
+  puts "#{row_1}\n#{line}\n#{row_2}\n#{line}\n#{row_3}"
+end
