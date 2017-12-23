@@ -10,7 +10,7 @@ WIN_COMBINATIONS = [
 ]
 
 def display_board(board)
-  cells = board.collect {|elt| " #{elt} "}
+  cells = board.collect {|elt| " #{elt} " }
   row_1 = "#{cells[0]}|#{cells[1]}|#{cells[2]}"
   row_2 = "#{cells[3]}|#{cells[4]}|#{cells[5]}"
   row_3 = "#{cells[6]}|#{cells[7]}|#{cells[8]}"
