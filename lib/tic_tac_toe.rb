@@ -109,7 +109,7 @@ def play(board)
       puts "Congratulations O!"
     end
   elsif draw?(board)
-    # tell the players it has been a draw
+    puts "Cat's Game!"
   end
 end
 
