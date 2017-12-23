@@ -98,9 +98,14 @@ end
 
 def play(board)
   current_turn = 0
-  while current_turn < 9
+  until over?(board)
     current_turn += 1
     turn(board)
+  end
+  if won?(board)
+    
+  elsif draw?(board)
+  
   end
 end
 
