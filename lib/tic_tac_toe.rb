@@ -32,10 +32,5 @@ def move(board, index, character = "X")
 end
 
 def position_taken?(board, index)
-  
-  # Position is 'taken' if the cell is not empty
-  if board[index] != " " && board[index] != ""
-    true
-  end
-  
+  board[index] != " " && board[index] != ""
 end
