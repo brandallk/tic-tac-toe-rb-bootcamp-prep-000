@@ -104,7 +104,7 @@ def play(board)
   end
   if won?(board)
     if winner(board) == "X"
-      
+      uts
     else
       
     end
