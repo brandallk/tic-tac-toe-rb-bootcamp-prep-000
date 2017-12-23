@@ -96,8 +96,12 @@ def winner(board)
   won?(board) ? board[winning_positions[0]] : nil
 end
 
-def play
-  
+def play(board)
+  current_turn = 0
+  while current_turn < 9
+    current_turn += 1
+    turn(board)
+  end
 end
 
 
