@@ -104,9 +104,9 @@ def play(board)
   end
   if won?(board)
     if winner(board) == "X"
-      uts
+      puts "Congratulations X!"
     else
-      
+      puts "Congratulations O!"
     end
   elsif draw?(board)
     # tell the players it has been a draw
