@@ -22,3 +22,5 @@ def display_board(board)
   line = "-" * 11
   puts "#{row_1}\n#{line}\n#{row_2}\n#{line}\n#{row_3}"
 end
+
+
