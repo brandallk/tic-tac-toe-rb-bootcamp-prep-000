@@ -105,7 +105,7 @@ def play(board)
   if won?(board)
     # congratulate the winner
   elsif draw?(board)
-  
+    # tell the players it has been a draw
   end
 end
 
