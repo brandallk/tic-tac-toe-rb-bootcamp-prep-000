@@ -17,7 +17,7 @@ def display_board(board)
   #   i += 1
   # end
   
-  cells = board.collect()
+  cells = board.collect {|elt| " #{elt} "}
   
   row_1 = "#{cells[0]}|#{cells[1]}|#{cells[2]}"
   row_2 = "#{cells[3]}|#{cells[4]}|#{cells[5]}"
